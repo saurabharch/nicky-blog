@@ -182,6 +182,10 @@ export const query = graphql`
       }
     }
     allMarkdownRemark(
+<<<<<<< HEAD
+=======
+      filter: { frontmatter: { draft: { ne: true } } }
+>>>>>>> seo
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 3
     ) {

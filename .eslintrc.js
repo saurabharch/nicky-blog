@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     extends: ["airbnb", "prettier", "prettier/react"],
-    plugins: ["prettier", "graphql"],
+    plugins: ["graphql", "prettier"],
     parser: "babel-eslint",
     parserOptions: {
         ecmaVersion: 8,
@@ -49,6 +49,7 @@ module.exports = {
                 tagName: "graphql"
             }
         ],
+        "react/destructuring-assignment":0,
         "prettier/prettier": [
             "error",
             {
