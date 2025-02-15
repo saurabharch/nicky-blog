@@ -18,7 +18,7 @@
   "homepage": "https://nickymeuleman.netlify.com/",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.10.5",
+    "gatsby": "^2.20.21",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-catch-links": "^2.0.11",
     "gatsby-plugin-extract-schema": "0.0.5",
